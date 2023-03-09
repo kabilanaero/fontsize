@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontsize</title>
+	</head>
+	<body>
+	 <input onmouseout="greet()" type="text" id="text" value="">
+	 
+      <div id="result">I am kabilan</div>
+	<script>
+
+	
+	function greet(){
+    let div= document.getElementById('result')
+    let r = Math.floor(Math.random()*255);
+    let g = Math.floor(Math.random()*255);
+    let b = Math.floor(Math.random()*255);
+    
+    div.style.color = `rgb(${r}, ${g}, ${b})`
+}
+	</script>
+	</body>
+	</html>
